@@ -1,0 +1,10 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}

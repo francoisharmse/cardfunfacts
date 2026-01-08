@@ -1,0 +1,15 @@
+.glass-container {
+  background: rgba(75, 179, 198, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 145, 255, 0.1);
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.glass-container:hover {
+  background: rgba(75, 179, 198, 0.1);
+  box-shadow: 0 12px 40px 0 rgba(98, 177, 237, 0.647);
+}
